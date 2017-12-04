@@ -1,0 +1,138 @@
+$date
+	Mon Nov 27 13:17:58 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testcont $end
+$var wire 1 ! regwrite $end
+$var wire 1 " regdst $end
+$var wire 1 # pcsrc $end
+$var wire 1 $ memwrite $end
+$var wire 1 % memtoreg $end
+$var wire 1 & jump $end
+$var wire 2 ' immtype [1:0] $end
+$var wire 1 ( alusrc $end
+$var wire 3 ) alucontrol [2:0] $end
+$var reg 6 * funct [5:0] $end
+$var reg 6 + op [5:0] $end
+$var reg 1 , zero $end
+$scope module ctl $end
+$var wire 6 - funct [5:0] $end
+$var wire 6 . op [5:0] $end
+$var wire 1 # pcsrc $end
+$var wire 1 , zero $end
+$var wire 1 ! regwrite $end
+$var wire 1 " regdst $end
+$var wire 1 $ memwrite $end
+$var wire 1 % memtoreg $end
+$var wire 1 & jump $end
+$var wire 2 / immtype [1:0] $end
+$var wire 1 0 branch $end
+$var wire 1 ( alusrc $end
+$var wire 2 1 aluop [1:0] $end
+$var wire 3 2 alucontrol [2:0] $end
+$scope module ad $end
+$var wire 6 3 funct [5:0] $end
+$var wire 2 4 aluop [1:0] $end
+$var reg 3 5 alucontrol [2:0] $end
+$upscope $end
+$scope module md $end
+$var wire 6 6 op [5:0] $end
+$var wire 1 ! regwrite $end
+$var wire 1 " regdst $end
+$var wire 1 $ memwrite $end
+$var wire 1 % memtoreg $end
+$var wire 1 & jump $end
+$var wire 2 7 immtype [1:0] $end
+$var wire 1 0 branch $end
+$var wire 1 ( alusrc $end
+$var wire 2 8 aluop [1:0] $end
+$var reg 11 9 controls [10:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010000010 9
+b10 8
+b0 7
+b0 6
+b111 5
+b10 4
+b101010 3
+b111 2
+b10 1
+00
+b0 /
+b0 .
+b101010 -
+0,
+b0 +
+b101010 *
+b111 )
+0(
+b0 '
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#1000
+b10 )
+b10 2
+b10 5
+0!
+0"
+1(
+1$
+b0 1
+b0 4
+b0 8
+b1010000 9
+b101011 +
+b101011 .
+b101011 6
+#2000
+b110 )
+b110 2
+b110 5
+0(
+10
+0$
+b1 1
+b1 4
+b1 8
+b100001 9
+b100 +
+b100 .
+b100 6
+#3000
+b10 )
+b10 2
+b10 5
+1!
+1(
+00
+b0 1
+b0 4
+b0 8
+b10001000000 9
+b1000 +
+b1000 .
+b1000 6
+#4000
+0!
+0(
+1&
+b100 9
+b10 +
+b10 .
+b10 6
+#5000
